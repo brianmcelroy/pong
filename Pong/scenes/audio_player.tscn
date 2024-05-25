@@ -1,0 +1,18 @@
+[gd_scene load_steps=5 format=3 uid="uid://dqg85xdubx6je"]
+
+[ext_resource type="Script" path="res://scripts/AudioPlayer.gd" id="1_sb5as"]
+[ext_resource type="AudioStream" uid="uid://p0hvpi7qibw4" path="res://assets/321802__lloydevans09__pvc_pipe_hit_4.wav" id="2_pt20f"]
+[ext_resource type="AudioStream" uid="uid://duc0plhtqxmdu" path="res://assets/game start.wav" id="3_drf8e"]
+[ext_resource type="AudioStream" uid="uid://wo3v7p8shm3c" path="res://assets/goal.mp3" id="4_w0r1y"]
+
+[node name="AudioPlayer" type="Node"]
+script = ExtResource("1_sb5as")
+
+[node name="bonk" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_pt20f")
+
+[node name="game_start" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_drf8e")
+
+[node name="goal" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_w0r1y")

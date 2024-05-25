@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://clen5niccwwmr"
+path="res://.godot/imported/paddle sound.wav-f24c7d514c15e57f57a9e67cb7800730.sample"
+
+[deps]
+
+source_file="res://assets/paddle sound.wav"
+dest_files=["res://.godot/imported/paddle sound.wav-f24c7d514c15e57f57a9e67cb7800730.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
